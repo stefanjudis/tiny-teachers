@@ -3,7 +3,7 @@
 > A collection of online learning tools and courses.
 
 // todo
-![Screenshot of tiny-helpers.dev](./screenshot.jpg)
+![Screenshot of tiny-helpers.dev](./screenshot.png)
 
 ## Contributing
 
@@ -14,15 +14,15 @@ Make sure you have a recent version of [Node.js installed](https://nodejs.org/en
 Fork and clone this repository. Head over to your terminal and run the following command:
 
 ```
-git clone git@github.com:[YOUR_USERNAME]/tiny-helpers.git
+git clone git@github.com:[YOUR_USERNAME]/tiny-teachers.git
 cd tiny-helpers
 npm ci
 npm run helper:add
 ```
 
-### Add a new helper
+### Add a new teacher
 
-`npm run helper:add` will ask a few questions and create a file in `helpers/`.
+`npm run teacher:add` will ask a few questions and create a file in `helpers/`.
 Commit the changes and [open a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ### Run the project locally
