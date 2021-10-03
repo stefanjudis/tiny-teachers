@@ -38,13 +38,23 @@ const { getTeachers, writeTeacher, getTags } = require('../lib/teachers');
         message:
           'Enter GitHub handles of the tool maintainers (comma separated):',
       },
+      {
+        name: 'loginRequired',
+        type: 'confirm',
+        message: 'Does this teacher require to create an account?',
+      },
+      {
+        name: 'isPaid',
+        type: 'confirm',
+        message: 'Do you have to pay for it?',
+      },
     ]);
 
-    // if (!newTeacher.tags || !newTeacher.tags.length) {
-    //   throw new Error(
-    //     'Please define at least one tag for your teacher.\nIf no tag fits your teacher please open issue to add a new tag.\n👉 https://github.com/stefanjudis/tiny-teachers/issues/new'
-    //   );
-    // }
+    if (!newTeacher.tags || !newTeacher.tags.length) {
+      throw new Error(
+        'Please define at least one tag for your teacher.\nIf no tag fits your teacher please open issue to add a new tag.\n👉 https://github.com/stefanjudis/tiny-teachers/issues/new'
+      );
+    }
 
     newTeacher.addedAt = new Date().toISOString().substring(0, 10);
     newTeacher.maintainers = newTeacher.maintainers.length

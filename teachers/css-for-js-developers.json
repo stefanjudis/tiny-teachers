@@ -1,0 +1,12 @@
+{
+  "name": "CSS for JS developers",
+  "desc": "Learn all about CSS.",
+  "url": "https://css-for-js.dev/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [],
+  "loginRequired": true,
+  "isPaid": true,
+  "addedAt": "2021-10-03"
+}

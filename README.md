@@ -1,6 +1,6 @@
 # tiny-teachers.dev
 
-> A collection of free single-purpose online learning tools
+> A collection of online learning tools and courses.
 
 // todo
 ![Screenshot of tiny-helpers.dev](./screenshot.jpg)

@@ -107,6 +107,11 @@ body {
   height: 2em;
 }
 
+.img-size-xs {
+  width: 1em;
+  height: 1em;
+}
+
 .img-size-l {
   width: 3em;
   height: 3em;

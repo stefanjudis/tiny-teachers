@@ -25,6 +25,7 @@
         width="1000"
         height="600"
         loading="lazy">
+
         <div class="margin-top-m padding-v-m">
           <h2 class="fsi-1-25 margin-bottom-s">{{ item.name }}</h2>
           <ul class="inline-list">
@@ -42,6 +43,12 @@
           <p class="margin-top-s margin-bottom-m">{{ item.desc }}</p>
         </div>
         <div class="p-abs-top-left fsi-0-875 bg-lighter padding-xs z-1">Added {{ item.addedAt | prettyDate }}</div>
+        {% if item.isPaid %}
+          <div class="p-abs-top-right fsi-0-875 bg-lighter padding-xs z-1">
+            Costs money
+            <img class="img-size-xs round" src="/paid.svg">
+          </div>
+        {% endif %}
         {% if item.maintainers.length %}
           <div class="padding-v-m margin-top-auto">
             <h3 class="fsi-1 margin-bottom-s">Made by</h3>

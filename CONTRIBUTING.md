@@ -6,7 +6,7 @@
 
 ## What does count as a tiny teacher?
 
-> A collection of free single-purpose online learning tools.
+> A collection of online learning tools and courses.
 
 - A tiny teacher is any website or web application that educates developers in a playful way.
 - A tiny teacher does not have to be available on GitHub and has not to be open source.
@@ -16,8 +16,6 @@
 ## What does not(!) count as a tiny helper?
 
 - **JS or CSS libraries / npm modules** (tiny-teachers.dev is about online resources)
-- **plugins for other online tools**
-- **tools behind a login**
 
 ## Formatting of tiny teachers
 
