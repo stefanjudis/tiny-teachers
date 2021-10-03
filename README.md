@@ -2,7 +2,6 @@
 
 > A collection of online learning tools and courses.
 
-// todo
 ![Screenshot of tiny-helpers.dev](./screenshot.png)
 
 ## Contributing
