@@ -1,0 +1,10 @@
+{
+  "name": "Learn git branching",
+  "desc": "Learn how to use git.",
+  "url": "https://learngitbranching.js.org/",
+  "tags": [
+    "git"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-03"
+}

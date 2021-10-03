@@ -1,0 +1,10 @@
+{
+  "name": "Open Vim",
+  "desc": "Learn how to use Vim.",
+  "url": "https://www.openvim.com/",
+  "tags": [
+    "Vim"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-03"
+}

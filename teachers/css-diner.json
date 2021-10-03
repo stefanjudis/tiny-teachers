@@ -1,0 +1,12 @@
+{
+  "name": "CSS Diner",
+  "desc": "Learn how to use CSS selectors.",
+  "url": "https://flukeout.github.io/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [
+    "flukeout"
+  ],
+  "addedAt": "2021-10-03"
+}

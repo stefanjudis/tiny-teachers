@@ -1,0 +1,10 @@
+{
+  "name": "React Tutorial",
+  "desc": "Learn how to use React.",
+  "url": "https://react-tutorial.app/app.html",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-03"
+}

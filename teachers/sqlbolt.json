@@ -1,0 +1,10 @@
+{
+  "name": "SQLBolt",
+  "desc": "Learn how to write SQL.",
+  "url": "https://sqlbolt.com/",
+  "tags": [
+    "SQL"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-03"
+}

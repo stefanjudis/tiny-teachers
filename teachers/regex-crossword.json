@@ -1,0 +1,10 @@
+{
+  "name": "Regex Crossword",
+  "desc": "Learn how to use regular expressions.",
+  "url": "https://regexcrossword.com/",
+  "tags": [
+    "Regular expressions"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-03"
+}

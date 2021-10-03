@@ -1,0 +1,46 @@
+<div id="menu" class="padding-sidebar bg-medium shadow-left" data-menu>
+  <p class="color-primary margin-top-m margin-bottom-m fst-italic fsi-0-875">{{ pkg.description }}</p>
+
+  <nav class="margin-bottom-l" aria-labelledby="nav">
+    <h2 class="margin-bottom-s fsi-1-25" id="nav">Tags</h2>
+    <ol class="nav">
+      {% for navTag in tags %}
+        <li class="margin-top-xs margin-bottom-xs neg-margin-left-m neg-margin-right-m">
+          <a
+          href="{{ navTag.slug | route({ listIsSortedBy: renderData.listIsSortedBy }) }}"
+          {% if tag.slug == navTag.slug %} aria-current="page" {% endif %}
+        >
+            {{navTag.name}}
+          </a>
+          <div class="nav-tagCount">{{navTag.items.length }}</div>
+        </li>
+      {% endfor %}
+    </ol>
+  </nav>
+
+  {% if vars.isProduction %}
+    <div id="carbon-container"></div>
+  {% endif %}
+
+  <div class="fsi-0-875 margin-top-l">
+    <p class="margin-bottom-xs">Brought to you by Stefan Judis</p>
+    <p class="margin-bottom-l">(<a class="color-primary" href="https://www.stefanjudis.com">Website</a>,
+      <a class="color-primary" href="https://twitter.com/stefanjudis" aria-label="Stefan on Twitter">Twitter</a>,
+      <a class="color-primary" href="https://github.com/stefanjudis" aria-label="Stefan on GitHub">GitHub</a>)</p>
+
+    <p class="margin-bottom-s">and <strong>{{ contributors.length }}</strong> lovely people:</p>
+    <ul class="inline-list">
+      {% for contributor in contributors %}
+        <li class="neg-margin-right-s">
+          <a href="https://github.com/{{contributor}}" class="no-underline" aria-label="{{contributor}} on GitHub">
+            <img
+                class="img-size-m circle"
+                srcset="/api/user-image/?user={{ contributor }}&size=40 1x,
+                        /api/user-image/?user={{ contributor }}&size=80 2x"
+                src="/api/user-image/?user={{ contributor }}" alt="GitHub profile image of {{ contributor }}" loading="lazy" width="40" height="40">
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

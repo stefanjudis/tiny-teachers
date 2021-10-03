@@ -1,0 +1,10 @@
+{
+  "name": "RegexOne",
+  "desc": "Learn how to use regular expressions.",
+  "url": "https://regexone.com/",
+  "tags": [
+    "Regular expressions"
+  ],
+  "maintainers": [],
+  "addedAt": "2021-10-03"
+}

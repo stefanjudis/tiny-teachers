@@ -1,0 +1,10 @@
+{
+  "name": "Design Patterns Game",
+  "desc": "Learn common JavaScript design patterns.",
+  "url": "https://designpatternsgame.com/",
+  "tags": ["JavaScript"],
+  "maintainers": [
+    "zoltantothcom"
+  ],
+  "addedAt": "2021-10-03"
+}
