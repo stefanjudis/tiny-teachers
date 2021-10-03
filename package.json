@@ -19,7 +19,7 @@
     "url": "git+https://github.com/stefanjudis/tiny-teachers.git"
   },
   "engines": {
-    "node": "^16.9.0"
+    "node": "14.x"
   },
   "keywords": [],
   "author": "stefan judis <stefanjudis@gmail.com>",
