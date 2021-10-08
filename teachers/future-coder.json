@@ -1,0 +1,14 @@
+{
+  "name": "Future Coder",
+  "desc": "Learn Python from scratch.",
+  "url": "https://futurecoder.io/",
+  "tags": [
+    "Python"
+  ],
+  "maintainers": [
+    "alexmojaki"
+  ],
+  "loginRequired": false,
+  "isPaid": false,
+  "addedAt": "2021-10-08"
+}
