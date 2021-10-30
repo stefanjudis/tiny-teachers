@@ -1,0 +1,12 @@
+{
+  "name": "web.dev \"Learn CSS\"",
+  "desc": "Learn CSS!",
+  "url": "https://web.dev/learn/css/",
+  "tags": [
+    "CSS"
+  ],
+  "maintainers": [],
+  "loginRequired": false,
+  "isPaid": false,
+  "addedAt": "2021-10-30"
+}
