@@ -14,9 +14,9 @@ Fork and clone this repository. Head over to your terminal and run the following
 
 ```
 git clone git@github.com:[YOUR_USERNAME]/tiny-teachers.git
-cd tiny-helpers
+cd tiny-teachers
 npm ci
-npm run helper:add
+npm run teacher:add
 ```
 
 ### Add a new teacher
