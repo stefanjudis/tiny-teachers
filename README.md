@@ -1,6 +1,6 @@
 # tiny-teachers.dev
 
-> A collection of online learning tools and courses.
+> A collection of online learning tools and courses for web developers.
 
 ![Screenshot of tiny-helpers.dev](./screenshot.png)
 

@@ -6,7 +6,7 @@
 
 ## What does count as a tiny teacher?
 
-> A collection of online learning tools and courses.
+> A collection of online learning tools and courses for web developers.
 
 - A tiny teacher is any website or web application that educates developers in a playful way.
 - A tiny teacher does not have to be available on GitHub and has not to be open source.
