@@ -37,7 +37,7 @@ const { toSlug } = require('../lib/slug');
           id: toSlug(name),
           link: url,
           description: desc,
-          content: `More tools! 🎉🎉🎉 "${name}" is available at ${url}`,
+          content: `More teachers! 🎉🎉🎉 "${name}" is available at ${url}`,
           date: new Date(addedAt),
           image: `https://tiny-teachers.dev/screenshots/${toSlug(name)}@1.jpg`,
         });
