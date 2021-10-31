@@ -1,0 +1,14 @@
+{
+  "name": "React Hooks Cheatsheet",
+  "desc": "Learn about essential React Hooks",
+  "url": "https://react-hooks-cheatsheet.com/",
+  "tags": [
+    "JavaScript"
+  ],
+  "maintainers": [
+    "ohansemmanuel"
+  ],
+  "loginRequired": false,
+  "isPaid": false,
+  "addedAt": "2021-10-31"
+}
