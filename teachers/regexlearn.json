@@ -1,0 +1,14 @@
+{
+  "name": "RegexLearn",
+  "desc": "Learn RegEx step by step, from zero to advanced.",
+  "url": "https://regexlearn.com/",
+  "tags": [
+    "Regular expressions"
+  ],
+  "maintainers": [
+    "aykutkardas"
+  ],
+  "loginRequired": false,
+  "isPaid": false,
+  "addedAt": "2021-11-18"
+}
