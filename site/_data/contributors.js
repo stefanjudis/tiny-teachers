@@ -13,9 +13,9 @@ async function fetchContributors({ page = 1, options }) {
     .map((contributor) => contributor.login)
     .filter((contributor) => !IGNORED_CONTRIBUTORS.includes(contributor));
 
-  const match = response.headers.link.match(
-    /^<.*?&page=(?<nextPage>\d*?)>; rel="next".*$/
-  );
+  const match =
+    response.headers.link &&
+    response.headers.link.match(/^<.*?&page=(?<nextPage>\d*?)>; rel="next".*$/);
 
   return match
     ? [
@@ -27,6 +27,7 @@ async function fetchContributors({ page = 1, options }) {
 
 module.exports = async function () {
   //  don't hit the API on every rebuild due to rate limits
+  console.log(process.env.NODE_ENV);
   if (process.env.NODE_ENV === 'production') {
     try {
       const { GITHUB_ACCESS_TOKEN } = process.env;
