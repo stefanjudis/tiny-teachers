@@ -1,0 +1,12 @@
+{
+  "name": "mess with DNS",
+  "desc": "Learn DNS by setting up dummy DNS records.",
+  "url": "https://messwithdns.net/",
+  "tags": [
+    "System Administration"
+  ],
+  "maintainers": [],
+  "loginRequired": false,
+  "isPaid": false,
+  "addedAt": "2021-12-21"
+}
