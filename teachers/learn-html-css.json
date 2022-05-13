@@ -1,0 +1,13 @@
+{
+  "name": "Learn HTML CSS",
+  "desc": "Learn semantic and accessible HTML and CSS step by step.",
+  "url": "https://learnhtmlcss.online/",
+  "tags": [
+    "CSS",
+    "HTML"
+  ],
+  "maintainers": [],
+  "loginRequired": false,
+  "isPaid": false,
+  "addedAt": "2022-05-13"
+}
