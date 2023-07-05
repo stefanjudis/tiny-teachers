@@ -1,0 +1,17 @@
+{
+  "name": "Divize",
+  "desc": "Learn, Write and Master HTML/CSS Through Real UI Challenges",
+  "url": "https://divize.io",
+  "tags": [
+    "Accessibility",
+    "CSS",
+    "HTML"
+  ],
+  "maintainers": [
+    "arbaouimehdi",
+    "mad42"
+  ],
+  "loginRequired": true,
+  "isPaid": true,
+  "addedAt": "2023-07-05"
+}
