@@ -17,6 +17,7 @@ async function fetchContributors({ page = 1, options }) {
     response.headers.link &&
     response.headers.link.match(/^<.*?&page=(?<nextPage>\d*?)>; rel="next".*$/);
 
+  console.log({ match, contributors });
   return match
     ? [
         ...contributors,
