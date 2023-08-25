@@ -43,6 +43,7 @@ module.exports = async function () {
 
       return await fetchContributors({ options });
     } catch (e) {
+      console.log('were erroring');
       console.error(e);
       return [];
     }
